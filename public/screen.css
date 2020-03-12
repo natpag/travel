@@ -12,6 +12,11 @@ body {
   height: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: #3e7b9b;
+}
+
 li {
   list-style: none;
   padding-right: 1rem;
@@ -54,7 +59,11 @@ section.hero header {
 }
 
 section.plane {
+  color: #3e7b9b;
   background-color: #ED5F5C;
+  text-align: center;
+  font-weight: lighter;
+  padding: 2rem;
 }
 
 section.featured {
