@@ -39,10 +39,8 @@ ul {
 }
 
 section.hero {
-  height: 30rem;
+  height: 100vh;
   background-image: url("./images/downtown.jpg");
-  background-size: 225%;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,8 +52,7 @@ section.hero header {
   text-align: center;
   padding: 1rem;
   width: 100%;
-  background: rgb(248, 224, 102);
-  background: linear-gradient(180deg, rgba(248, 224, 102, .75) 0%, rgba(237, 95, 92, .75) 100%);
+  background: linear-gradient(rgba(248, 224, 102, .75), rgba(237, 95, 92, .75));
 }
 
 section.plane {
@@ -66,8 +63,16 @@ section.plane {
   padding: 2rem;
 }
 
-section.featured {
+section.featured header {
   background-color: #9BC4CB;
+  color: #F8E067;
+  text-align: center;
+  font-weight: bold;
+  padding: 1.3rem;
+}
+
+section.fdContent img {
+  width: 100%;
 }
 
 section.topDestinations {
